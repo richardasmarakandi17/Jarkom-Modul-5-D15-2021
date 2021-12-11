@@ -14,7 +14,8 @@ Isikan `echo nameserver 192.168.122.1 > /etc/resolv.conf` pada server2 lainnya a
 ### A. Tugas pertama kalian yaitu membuat topologi jaringan sesuai dengan rancangan yang diberikan Luffy.
 ![Topologi](https://cdn.discordapp.com/attachments/804405775988555776/919234886013947924/unknown.png)
 
-### B. Karena kalian telah belajar subnetting dan routing, Luffy ingin meminta kalian untuk membuat topologi tersebut menggunakan teknik CIDR atau VLSM. setelah melakukan subnetting, 
+### B. Karena kalian telah belajar subnetting dan routing, Luffy ingin meminta kalian untuk membuat topologi tersebut menggunakan teknik CIDR atau VLSM.
+
 * Untuk subnetting menggunakan teknik `VSLM`. pertama ditentukan dlu subnet subnetnya.
 ![SUBNETTING-1](https://user-images.githubusercontent.com/76694068/145677698-12d41ddf-3d73-4b6c-85f3-2d70e05d68f5.jpg)
 
