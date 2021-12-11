@@ -20,13 +20,13 @@ Isikan `echo nameserver 192.168.122.1 > /etc/resolv.conf` pada server2 lainnya a
 ![SUBNETTING-1](https://user-images.githubusercontent.com/76694068/145677698-12d41ddf-3d73-4b6c-85f3-2d70e05d68f5.jpg)
 
 * Setelah menentukan subnetting, maka ditentukan berapa jumlah host untuk masing masing subnet dan menentukan lenghtnya.
-![image](https://user-images.githubusercontent.com/76694068/145677867-d9d0c991-597f-4580-a0d5-00ea73e2ac70.png)
+![image](https://user-images.githubusercontent.com/76694068/145680754-1f4e949e-e796-4d08-90de-dabb752cec62.png)
 
 * Setelah ketemu berapa lenght maxnya, maka gunakan tree untuk mendapatkan ip-ip yang diinginkan. cara menghitung treenya bisa dilihat dari wild card tiap lenght branch, dan dimodifikasi. untuk lebih lengkapnay bisa dilihat modul sbelumnya
 ![Copy of PohFak-Page-2 drawio](https://user-images.githubusercontent.com/76694068/145677953-1249466e-e45c-49a3-9089-c0e5f3e29bcd.png)
 
 * Setelah mendapatkan ip yang diinginkan, maka didaftar apa saja netmask, broadcast dan network ID.
-![image](https://user-images.githubusercontent.com/76694068/145677945-60bd8808-cb7b-4554-b822-cdd76e24a6b2.png)
+![image](https://user-images.githubusercontent.com/76694068/145680803-a672455d-d9b1-4eca-9041-f5bf52a0195f.png)
 
 * Jika telah mendapatkan seluruh ip yang dibutuhkan, maka akan dilakukan routing dan setting ip di masing masing server.
 ```
