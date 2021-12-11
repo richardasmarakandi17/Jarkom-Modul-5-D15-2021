@@ -27,13 +27,13 @@ Untuk subnetting menggunakan teknik `VSLM`. pertama ditentukan dlu subnet subnet
 ![SUBNETTING-1](https://user-images.githubusercontent.com/76694068/145677698-12d41ddf-3d73-4b6c-85f3-2d70e05d68f5.jpg)
 
 Setelah menentukan subnetting, maka ditentukan berapa jumlah host untuk masing masing subnet dan menentukan lenghtnya.
-![image](https://user-images.githubusercontent.com/76694068/145677867-d9d0c991-597f-4580-a0d5-00ea73e2ac70.png)
+![image](https://user-images.githubusercontent.com/76694068/145678278-22d44a03-7b7e-4570-944b-55409e75c075.png)
 
 Setelah ketemu berapa lenght maxnya, maka gunakan tree untuk mendapatkan ip-ip yang diinginkan. cara menghitung treenya bisa dilihat dari wild card tiap lenght branch, dan dimodifikasi. untuk lebih lengkapnay bisa dilihat modul sbelumnya
 ![Copy of PohFak-Page-2 drawio](https://user-images.githubusercontent.com/76694068/145677953-1249466e-e45c-49a3-9089-c0e5f3e29bcd.png)
 
 Setelah mendapatkan ip yang diinginkan, maka didaftar apap saja netmask, broadcast dan network ID.
-![image](https://user-images.githubusercontent.com/76694068/145677945-60bd8808-cb7b-4554-b822-cdd76e24a6b2.png)
+![image](https://user-images.githubusercontent.com/76694068/145678290-c1f49ad8-91d6-4e04-b006-2041c1d53570.png)
 
 Jika telah mendapatkan seluruh ip yang dibutuhkan, maka akan dilakukan routing dan setting ip di masing masing server.
 ```
